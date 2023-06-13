@@ -3,11 +3,9 @@ import React, { useEffect, useState } from "react";
 import { useEffectOnce } from "../hooks/useEffectOnce";
 import { DATASET_2 } from "./mockData";
 import "./style.css";
-import { LuExpand } from 'react-icons/lu'
 
 
 export default function D3_5() {
-  const expand = LuExpand
   const container = React.useRef(null);
   const width = window.innerWidth;
   const height = window.innerHeight;

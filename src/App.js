@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import D3 from "./d3/d3";
+import D3_2 from "./d3/d3-2";
+import D3_3 from "./d3/d3-3";
+import D3_4 from "./d3/d3-4";
+import D3_5 from "./d3/d3-5";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <D3_5 />
     </div>
   );
 }
